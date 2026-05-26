@@ -1,12 +1,17 @@
+import type { FC } from "react"
+import { Routes, Route } from "react-router-dom"
 
 
 
 
-function App() {
+
+
+const App: FC = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+
+    <Routes>
+      <Route path="/" element={<h1>Home Page</h1>} />
+    </Routes>
   )
 }
 
