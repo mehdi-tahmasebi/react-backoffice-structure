@@ -4,8 +4,6 @@ import { persist } from "zustand/middleware";
 import type { LoginResponse } from "@/services/auth/authService";
 
 
-
-
 export interface UserSafeInfo {
     name: string
 }
